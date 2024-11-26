@@ -90,7 +90,7 @@ export async function GET(request: Request) {
       matchesProductGroup &&
       matchesPublisher &&
       matchesPrintYear &&
-      matchesSubject &&
+      // matchesSubject &&
       matchesLanguage &&
       matchesCondition &&
       matchesDays // Include the days filter

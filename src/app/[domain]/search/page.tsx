@@ -17,7 +17,7 @@ async function fetchBooks(queryParams: string) {
     console.log("Fetched Data:", data); // Debug response data
     return data;
   } catch (error) {
-    console.error("Error fetching books:", error);
+    console.log("Error fetching books:", error);
     return { books: [], totalResults: 0, totalPages: 0, currentPage: 1 };
   }
 }

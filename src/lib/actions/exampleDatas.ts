@@ -21,7 +21,7 @@ async function addGroupEntry(
     await newGroup.save();
     console.log("New group entry added successfully");
   } catch (error) {
-    console.error("Error adding group entry:", error);
+    console.log("Error adding group entry:", error);
   }
 }
 

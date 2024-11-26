@@ -115,7 +115,7 @@ export async function getBookByIdAction({ id }) {
     const data = await product.findById(id);
     return data;
   } catch (err) {
-    console.error(err);
+    console.log(err);
     return null;
   }
 }

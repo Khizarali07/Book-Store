@@ -90,7 +90,7 @@ export default function ServerPage({
       setTotalPages(data.totalPages || 0);
       setCurrentPage(data.currentPage || 1);
     } catch (error) {
-      console.error("Error fetching books:", error);
+      console.log("Error fetching books:", error);
     }
   };
 
